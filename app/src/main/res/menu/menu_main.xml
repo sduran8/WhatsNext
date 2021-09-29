@@ -1,0 +1,30 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utep.cs.cs4330.whatsnext.MainActivity">
+
+
+    <item
+        android:id="@+id/filter"
+        android:orderInCategory="100"
+        android:title="Filter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/resetFilter"
+        android:orderInCategory="100"
+        android:title="Reset Filter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearFavorites"
+        android:orderInCategory="100"
+        android:title="Clear Favorites"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+
+</menu>
